@@ -130,103 +130,90 @@ wget https://github.com/nx-software/nx-software-center/releases/download/v0.6.4/
 chmod +x /mnt/usr/bin/nx-software-center
 
 # Download and install the Flatpak versions of various applications
-flatpak install flathub psensor
-flatpak install flathub cpupower-gui
-flatpak install flathub htop
-flatpak install flathub neofetch
-flatpak install flathub conky
-flatpak install flathub conky-manager
-flatpak install flathub google-chrome
-flatpak install flathub brave
-flatpak install flathub opera
-flatpak install flathub qbittorrent
-flatpak install flathub gnome-boxes
-flatpak install flathub deepin-terminal
-flatpak install flathub tilix
-flatpak install flathub nvidia-optimus
-flatpak install flathub green-with-envy
-flatpak install flathub ventoy
-flatpak install flathub balena-etcher
-flatpak install flathub gedit
-flatpak install flathub playonlinux
-flatpak install flathub picard
-flatpak install flathub digikam
-flatpak install flathub kdeconnect
-flatpak install flathub duckstation
-flatpak install flathub ppsspp
-flatpak install flathub dolphin
-flatpak install flathub retroarch
-flatpak install flathub emulationstation-desktop
-flatpak install flathub flycast
-flatpak install flathub gnome-disk-utility
-flatpak install flathub gparted
-flatpak install flathub wine-devel
-flatpak install flathub winetricks
-flatpak install flathub nvidia-optimus
-flatpak install flathub green-with-envy
-flatpak install flathub ventoy
-flatpak install flathub balena-etcher
-flatpak install flathub gedit
-flatpak install flathub playonlinux
-flatpak install flathub picard
-flatpak install flathub digikam
-flatpak install flathub kdeconnect
-flatpak install flathub duckstation
-flatpak install flathub ppsspp
-flatpak install flathub dolphin
+#flatpak install flathub psensor
+#flatpak install flathub cpupower-gui
+#flatpak install flathub htop
+#flatpak install flathub neofetch
+#flatpak install flathub conky
+#flatpak install flathub conky-manager
+#flatpak install flathub google-chrome
+#flatpak install flathub brave
+#flatpak install flathub opera
+#flatpak install flathub qbittorrent
+#flatpak install flathub gnome-boxes
+#flatpak install flathub deepin-terminal
+#flatpak install flathub tilix
+#flatpak install flathub nvidia-optimus
+#flatpak install flathub green-with-envy
+#flatpak install flathub ventoy
+#flatpak install flathub balena-etcher
+#flatpak install flathub gedit
+#flatpak install flathub playonlinux
+#flatpak install flathub picard
+#flatpak install flathub digikam
+#flatpak install flathub kdeconnect
+#flatpak install flathub duckstation
+#flatpak install flathub ppsspp
+#flatpak install flathub dolphin
+#flatpak install flathub retroarch
+#flatpak install flathub emulationstation-desktop
+#flatpak install flathub flycast
+#flatpak install flathub gnome-disk-utility
+#flatpak install flathub gparted
+#flatpak install flathub wine-devel
+#flatpak install flathub winetricks
+#flatpak install flathub nvidia-optimus
+#flatpak install flathub green-with-envy
+#flatpak install flathub ventoy
+#flatpak install flathub balena-etcher
+#flatpak install flathub gedit
+#flatpak install flathub playonlinux
+#flatpak install flathub picard
+#flatpak install flathub digikam
+#flatpak install flathub kdeconnect
+#flatpak install flathub duckstation
+#flatpak install flathub ppsspp
+#flatpak install flathub dolphin
 
 # Install the regular packages from the repos if no Flatpaks are available
 pacman -S psensor
 pacman -S cpupower
-pacman -S htop
-pacman -S neofetch
-pacman -S conky
-pacman -S conky-manager
-pacman -S google-chrome
-pacman -S brave
-pacman -S opera
-pacman -S qbittorrent
-pacman -S gnome-boxes
-pacman -S deepin-terminal
-pacman -S tilix
-pacman -S nvidia-optimus
-pacman -S green-with-envy
-pacman -S ventoy
-pacman -S balena-etcher
-pacman -S gedit
-pacman -S playonlinux
-pacman -S picard
-pacman -S digikam
-pacman -S kdeconnect
-pacman -S duckstation
-pacman -S ppsspp
-pacman -S dolphin
-pacman -S retroarch
+#pacman -S htop
+#pacman -S neofetch
+#pacman -S conky
+#pacman -S conky-manager
+#pacman -S google-chrome
+#pacman -S brave
+#pacman -S opera
+#pacman -S qbittorrent
+#pacman -S gnome-boxes
+#pacman -S deepin-terminal
+#pacman -S tilix
+#pacman -S nvidia-optimus
+#pacman -S green-with-envy
+#pacman -S ventoy
+#pacman -S balena-etcher
+#pacman -S gedit
+#pacman -S playonlinux
+#pacman -S picard
+#pacman -S digikam
+#pacman -S kdeconnect
+#pacman -S duckstation
+#pacman -S ppsspp
+#pacman -S dolphin
+#pacman -S retroarch
 pacman -S emulationstation
-pacman -S flycast
-pacman -S gnome-disk-utility
-pacman -S gparted
+#pacman -S flycast
+#pacman -S gnome-disk-utility
+#pacman -S gparted
 pacman -S wine
-pacman -S winetricks
-pacman -S nvidia-optimus
-pacman -S green-with-envy
-pacman -S ventoy
-pacman -S balena-etcher
-pacman -S gedit
-pacman -S playonlinux
-pacman -S picard
-pacman -S digikam
-pacman -S kdeconnect
-pacman -S duckstation
-pacman -S ppsspp
-pacman -S dolphin
-pacman -S retroarch
-pacman -S emulationstation
-pacman -S flycast
-pacman -S gnome-disk-utility
-pacman -S gparted
-pacman -S wine
-pacman -S winetricks
+#pacman -S winetricks
+#pacman -S nvidia-optimus
+#pacman -S green-with-envy
+#pacman -S ventoy
+#pacman -S balena-etcher
+#pacman -S gedit
+#pacman -S playonlinux
 pacman -S ardour
 pacman -S soundconverter
 pacman -S mangohud
@@ -255,6 +242,51 @@ pacman -S cave-story
 pacman -S 0ad
 pacman -S warzone2100
 pacman -S tuxkart
+
+#Alternate way to install the above packages
+pkgs = ("psensor"
+ "cpupower-gui" 
+ "htop" 
+ "neofetch" 
+ "conky" 
+ "conky-manager" 
+ "google-chrome" 
+ "brave" 
+ "opera" 
+ "qbittorret" 
+ "gnome-boxes" 
+ "deepin-terminal" 
+ "tilix" 
+ "picard" 
+ "digikam" 
+ "kdeconnect" 
+ "duckstation" 
+ "ppsspp" 
+ "doplhin" 
+ "retroarch" 
+ "emulationstation-desktop" 
+ "flycast" 
+ "gnome-disk-utility" 
+ "gparted" 
+ "wine-devel" 
+ "winetricks" 
+ "nvidia-optimus" 
+ "green-with-envy" 
+ "ventoy" 
+ "balena-etcher" 
+ "gedit" 
+ "playonlinux" 
+ )
+
+for i in pkgs; do
+    {
+        flatpack install flathub $i
+        wait
+    } || {
+        pacman -S $i
+        wait
+    }
+done
 
 # Install and configure WayDroid
 pacman -S waydroid
@@ -285,4 +317,3 @@ systemctl enable manjaro-driver-manager
 # Clean up
 rm /mnt/install-arch.sh
 reboot
-
