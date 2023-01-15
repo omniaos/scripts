@@ -317,3 +317,4 @@ systemctl enable manjaro-driver-manager
 # Clean up
 rm /mnt/install-arch.sh
 reboot
+"\n"
